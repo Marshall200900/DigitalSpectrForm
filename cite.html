@@ -7,9 +7,11 @@
         <div class='frame'>
             <form action="https://digital-spectr.com/ac/academy.php" method='POST'>
             <div class='header'>Задать вопрос</div>
-            <input name='name' class='field name' type='text' size='40px' placeholder='Фамилия Имя Отчество *' pattern="[А-Яа-яЁё\-\s]+$">
-            <input name='phone' class='field number' type='text' size='40px' placeholder='Телефон *' pattern="\d+$">
-            <input name='email' class='field email' type='text' size='40px' placeholder='Email' pattern="^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$">
+            <div type='text' size='40px'>
+                <input name='name' class='field name' placeholder='Фамилия Имя Отчество *' pattern="[А-Яа-яЁё\-\s]+$">
+                <input name='phone' class='field number' placeholder='Телефон *' pattern="\d+$">
+                <input name='email' class='field email' placeholder='Email' pattern="^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$">
+            </div>
             <input class='submit-button' type='submit' value='ОТПРАВИТЬ ЗАПРОС'>
         </form>
         </div>
